@@ -6,7 +6,7 @@ public class App {
 
     //todo Task 1
     public void sayHelloWorld(){
-      System.out.print("Hello World!"); // input your solution here
+      System.out.println("Hello World!"); // input your solution here
     }
 
     //todo Task 2
