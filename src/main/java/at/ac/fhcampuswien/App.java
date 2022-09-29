@@ -27,11 +27,21 @@ public class App {
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
+
     }
 
     //todo Task 4
     public void addTwoNumbers(){
         // input your solution here
+        int x;
+        int y;
+        int sum;
+        Scanner scanner;
+        scanner = new Scanner(System.in);
+        x = scanner.nextInt();
+        y = scanner.nextInt();
+        sum = x+y;
+        System.out.println(sum);
     }
 
     //todo Task 5
