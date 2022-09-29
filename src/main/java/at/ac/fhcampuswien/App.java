@@ -52,6 +52,24 @@ public class App {
     //todo Task 6
     public void compareTwoNumbers(){
         // input your solution here
+        int n1;
+        int n2;
+        Scanner scanner;
+        scanner = new Scanner(System.in);
+        System.out.print("n1: ");
+        n1 = scanner.nextInt();
+        System.out.print("n2: ");
+        n2 = scanner.nextInt();
+        if(n1==n2) {
+            System.out.println("n1 == n2");
+        }
+        if(n1>n2){
+            System.out.println("n1 > n2");
+        }
+        if(n2>n1){
+            System.out.println("n2 > n1");
+        }
+
     }
 
     //todo Task 7
