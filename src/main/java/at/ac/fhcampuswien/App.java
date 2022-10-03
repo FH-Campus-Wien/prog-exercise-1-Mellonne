@@ -27,6 +27,26 @@ public class App {
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
+        char z ='Z';
+        int hexadecimalnum = 0xFace;
+        int octalnum = 012;
+        long longnum = 80L;
+        float floatnum1 = 44e-1f;
+        float  floatnum2 = 5.5f;
+        double decimalnum1 = 8.88e1;
+        double decimalnum2 = 99.9;
+        int sum = 0;
+
+        sum = (sum+z);
+        sum = (sum+hexadecimalnum);
+        sum = (sum+octalnum);
+        sum = (int) (sum+longnum);
+        sum = (int) (sum+floatnum1);
+        sum = (int) (sum+floatnum2);
+        sum = (int) (sum + decimalnum1);
+        sum = (int) (sum +decimalnum2);
+
+        System.out.println(sum);
 
     }
 
