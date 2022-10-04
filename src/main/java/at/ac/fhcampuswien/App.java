@@ -1,5 +1,7 @@
 package at.ac.fhcampuswien;
 
+import sun.jvm.hotspot.debugger.posix.elf.ELFSectionHeader;
+
 import java.util.Scanner;
 
 public class App {
@@ -161,11 +163,25 @@ public class App {
     //todo Task 9
     public void leapyear(){
         // input your solution here
+        int year;
+        Scanner scanner;
+        scanner = new Scanner(System.in);
+        System.out.print("Year: ");
+        year = scanner.nextInt();
+        if(year%4 ==0 &&  year%400 ==0){
+            System.out.println("Leapyear");
+
+        }
+        else {
+            System.out.println("Not a Leapyear");
+        }
+
     }
 
     //todo Task 10
     public void transposedNumbers(){
         // input your solution here
+
     }
 
 
