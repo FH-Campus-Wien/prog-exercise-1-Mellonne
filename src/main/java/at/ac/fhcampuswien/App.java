@@ -190,7 +190,7 @@ public class App {
         number = scanner.nextInt();
         if (number < 1000) {
             while (number > 0) {
-                reversenumber =  reversenumber*10 + number%10;
+                reversenumber = number%10 + reversenumber*10 ;
                 number = number/10;
 
             }
