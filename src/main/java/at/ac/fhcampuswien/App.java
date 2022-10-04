@@ -108,6 +108,26 @@ public class App {
     //todo Task 7
     public void ratingSalesPerson(){
         // input your solution here
+        int annualrevenue;
+        Scanner scanner;
+        scanner = new Scanner(System.in);
+        System.out.print("Enter annual Revenue: ");
+        annualrevenue = scanner.nextInt();
+        if(annualrevenue<0 || annualrevenue>=100000) {
+            System.out.println("Invalid Revenue");
+        }
+        if(annualrevenue>=0 && annualrevenue < 20000){
+            System.out.println("Poor Sales Revenue");
+        }
+        if(annualrevenue>=20000 && annualrevenue < 50000){
+            System.out.println("Average Sales Revenue");
+        }
+        if(annualrevenue>=50000 && annualrevenue < 80000){
+            System.out.println("Good Sales Revenue");
+        }
+        if(annualrevenue>=80000 && annualrevenue < 100000){
+            System.out.println("Excellent Sales Revenue");
+        }
     }
 
     //todo Task 8
