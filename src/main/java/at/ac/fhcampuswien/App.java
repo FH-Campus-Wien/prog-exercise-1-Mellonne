@@ -179,9 +179,25 @@ public class App {
     }
 
     //todo Task 10
-    public void transposedNumbers(){
+    public void transposedNumbers() {
         // input your solution here
+        int number;
+        int reversenumber = 0;
 
+        Scanner scanner;
+        scanner = new Scanner(System.in);
+        System.out.print("Number: ");
+        number = scanner.nextInt();
+        if (number < 1000) {
+            while (number > 0) {
+                reversenumber =  reversenumber*10 + number%10;
+                number = number/10;
+
+            }
+            System.out.println(reversenumber);
+        }
+        else
+            System.out.println("The Number is too big!"+System.lineSeparator()+"Use a max three digit number.");
     }
 
 
